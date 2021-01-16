@@ -3,7 +3,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t darthvader27/search -f Dockerfile.dev .
+  - docker build -t darthvader27/search -f Dockerfile .
 
 script:
   - docker run darthvader27/search npm run test -- --coverage
