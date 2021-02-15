@@ -1,4 +1,4 @@
-FROM node:10.23.0as builder
+FROM node:10.23.0 as builder
 
 WORKDIR /usr/app
 
